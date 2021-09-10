@@ -101,3 +101,6 @@ tests/triangle-vulkan
 tests/window
 tests/windows
 
+# MJT bin ignores
+bin/
+bin-int/
