@@ -44,7 +44,7 @@ project "GLFW"
 	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
-		buildoptions "/MDd"
+		buildoptions "/MT"
 
 	filter "configurations:Release"
 		runtime  "Release"
